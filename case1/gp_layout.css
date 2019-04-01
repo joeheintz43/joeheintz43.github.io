@@ -51,7 +51,7 @@ article {
 @media handheld (max-width: 480px) {
 
 	.panel img {
-		min-width: 100%;
+		width: 100%;
 	}
 
 }
