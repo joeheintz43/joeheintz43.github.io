@@ -50,13 +50,23 @@ article {
 
 @media handheld (max-width: 480px) {
 
-	.panel img {
+	.panel>img {
 		width: 100%;
 	}
-
+	
+	.sheet>nav {
+		order: 99;
+	}
+	
+	body>footer:{
+		order: 100;
+	}
 }
 /* ===================================================
 	Tablet and Desktop Devices: Greater than 480 pixels
    ===================================================
 */
 
+@media screen and (min-width:481) {
+	
+}
