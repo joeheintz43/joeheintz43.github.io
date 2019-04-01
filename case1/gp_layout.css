@@ -50,15 +50,15 @@ article {
 
 @media handheld (max-width: 480px) {
 
-	.panel>img {
+	.panel img {
 		width: 100%;
 	}
 	
-	.sheet>nav {
+	.sheet nav {
 		order: 99;
 	}
 	
-	body>footer:{
+	body footer:{
 		order: 100;
 	}
 }
