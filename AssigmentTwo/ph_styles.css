@@ -147,7 +147,7 @@ section.playbill h1   {
 dt {
 	font-size: 1.3em;
 	font-weight: bold;
-	color: hsla(0, 0%, 0%, 0.4)
+	color: hsla(0, 0%, 0%, 0.4);
 }
 
 dd {
