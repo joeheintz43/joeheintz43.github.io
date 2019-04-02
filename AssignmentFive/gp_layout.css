@@ -48,25 +48,55 @@ article {
    ============================================
 */
 
-@media handheld (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
-	.panel img {
+	.panel{
 		width: 100%;
 	}
 	
-	.sheet nav {
+	nav {
 		order: 99;
 	}
-	
-	body footer:{
+
+	body footer {
 		order: 100;
 	}
+
 }
 /* ===================================================
 	Tablet and Desktop Devices: Greater than 480 pixels
    ===================================================
 */
 
-@media screen and (min-width:481) {
+@media screen and (min-width:481px) {
+	nav>ul {
+		display: flex;
+		flex-direction: row; 
+		flex-wrap: nowrap;
+		display: -webkit-flex;
+		-webkit-flex-direction: row;
+		height: 40px;
+	}
 	
+	nav>ul>li {
+		flex-grow: 1;
+		flex-shrink: 1;
+		flex-basis: auto;
+	}
+	
+	.size1 {
+		width: 100%;
+	}
+	
+	.size2 {
+		width: 60%;
+	}
+	
+	.size3 {
+		width: 40%;
+	}
+	
+	.size4 {
+		width: 30%;
+	}
 }
